@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Bebas Neue'; /* Puedes elegir cualquier nombre para tu fuente */
+    src: url('/Templates/Fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype'); /* Ajusta la ruta según donde hayas guardado tus archivos de fuente */
+}
+
+header{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px;
+    height: 80px;
+}
+
+nav{
+    background-color: #1C1C1C;
+    margin: 0%;
+    height: auto;
+    border-radius: 8px
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a{
+    font-family:'Bebas Neue', 'Sans Serif';
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+main h1{
+    font-family:'Bebas Neue';
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 0% 40px 0%;
+}
+
+main{
+    width: auto;
+    height: auto;
+    margin: 0% 10%;
+}
+
+.mainBienvenida{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.SectionsIndex p{
+    text-align: center;
+    margin: 50px 10px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+.SectionsIndex .ImagesIndex{
+    align-items: center ;
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+}
+
+.btnInformation {
+	background-color:#000000;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Bebas Neue;
+	font-size:19px;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #2f6627;
+    justify-content: center;
+    
+}
+.btnInformation:hover {
+	background-color:#393939;
+}
+.btnInformation:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
