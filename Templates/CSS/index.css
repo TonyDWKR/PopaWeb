@@ -2,7 +2,9 @@
     font-family: 'Bebas Neue'; /* Puedes elegir cualquier nombre para tu fuente */
     src: url('/Templates/Fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype'); /* Ajusta la ruta según donde hayas guardado tus archivos de fuente */
 }
-
+body{
+    margin: 0;
+}
 header{
     margin: 30px 0px;
     display: flex;
@@ -55,31 +57,35 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
-
+.SectionsIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .SectionsIndex p{
-    text-align: center;
-    margin: 50px 10px;
+    text-align: left;
+    margin: 10px;
     font-family: 'Bebas Neue';
     font-size: 18px;
+    font-weight: lighter;
 }
 .SectionsIndex .ImagesIndex{
-    align-items: center ;
     text-align: center;
     margin: 10% 10% 10% 10%;
 }
 
 .btnInformation {
-	background-color:#000000;
-	border-radius:5px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Bebas Neue;
-	font-size:19px;
-	padding:15px 40px;
-	text-decoration:none;
-	text-shadow:1px 0px 0px #2f6627;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Bebas Neue;
+    font-size: 19px;
     justify-content: center;
-    
+    margin: 0 auto;
+    width: 190px;
+    display: block;
+    height: 40px;
 }
 .btnInformation:hover {
 	background-color:#393939;
@@ -87,6 +93,16 @@ main{
 .btnInformation:active {
 	position:relative;
 	top:1px;
+}
+.ImagesIndex{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 250px;
+    min-height: 333px;
+}
+.ImagesIndex img{
+    width: 100%;
 }
 
         
