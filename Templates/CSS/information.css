@@ -38,72 +38,6 @@ nav li a{
     display: inline-block;
     margin: 20px 20px;
 }
-
-main h1{
-    font-family:'Bebas Neue';
-    font-size: 25px;
-    text-align: center;
-    margin: 40px 0% 40px 0%;
-}
-
-main{
-    width: auto;
-    height: auto;
-    margin: 0% 10%;
-}
-
-.mainBienvenida{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-.SectionsIndex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.SectionsIndex p{
-    text-align: left;
-    margin: 10px;
-    font-family: 'Bebas Neue';
-    font-size: 18px;
-    font-weight: lighter;
-}
-.SectionsIndex .ImagesIndex{
-    text-align: center;
-    margin: 10% 10% 10% 10%;
-}
-
-.btnInformation {
-    background-color: #1C1C1C;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Bebas Neue;
-    font-size: 19px;
-    justify-content: center;
-    margin: 30px auto;
-    width: 190px;
-    display: block;
-    height: 40px;
-}
-.btnInformation:hover {
-	background-color:#393939;
-}
-.btnInformation:active {
-	position:relative;
-	top:1px;
-}
-.ImagesIndex{
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 250px;
-    min-height: 333px;
-}
-.ImagesIndex img{
-    width: 100%;
-}
 footer{
     background-color: #1C1C1C;
     grid-template-rows: auto;
@@ -122,6 +56,36 @@ footer div{
     font-size: 35px;
     padding: 20px 0 0 0 ;
  }
+/**Styles for all pages*/
 
-        
+main h1{
+    font-family:'Bebas Neue';
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 0% 40px 0%;
+}
 
+main{
+    width: auto;
+    height: auto;
+    margin: 0% 10%;
+}
+
+.columnPackage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.columnPackage .tablaPaquetes{
+    text-align: left;
+    margin: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.columnPackage .imgBarras{
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+}
