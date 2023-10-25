@@ -18,7 +18,7 @@ nav{
     background-color: #1C1C1C;
     margin: 0%;
     height: auto;
-    border-radius: 8px
+    border-radius: none;
 }
 
 nav ul{
@@ -75,14 +75,14 @@ main{
 }
 
 .btnInformation {
-    background-color: #000000;
+    background-color: #1C1C1C;
     border-radius: 5px;
     cursor: pointer;
     color: #ffffff;
     font-family: Bebas Neue;
     font-size: 19px;
     justify-content: center;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 190px;
     display: block;
     height: 40px;
@@ -104,6 +104,24 @@ main{
 .ImagesIndex img{
     width: 100%;
 }
+footer{
+    background-color: #1C1C1C;
+    grid-template-rows: auto;
+}
+footer div{
+    color: #ffffff;
+    font-family: Bebas Neue;
+    text-align: center;
+    padding: auto;
+    font-size: 24px;
+}
+ footer h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 35px;
+    padding: 20px 0 0 0 ;
+ }
 
         
 
